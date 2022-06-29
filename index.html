@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Qu'est-ce que PHP ?</h1>
+    <p>PHP est un langage de programmation qui s'intègre dans vos pages HTML. Il permet entre autres de rendre
+        automatiques des tâches répétitives, notamment grâce à la communication avec une base de données (utilisation la
+        plus courante de PHP). Le but des exercices de PHP Débutant est de vous apprendre à maîtriser les bases de ces
+        deux outils (PHP et base de données), afin que vous puissiez élaborer vos propres applications. Mais, avant de
+        continuer, il est bon d'expliquer comment se déroule une requête HTTP : en clair que se passe-t-il lorsque vous
+        tapez une adresse dans votre navigateur, où interviennent PHP et MySQL (la base de données), et les conséquences
+        que cela implique.
+        Voici, en simplifiant, ce qu'il se passe lorsque vous consultez une page html dite statique : Votre navigateur
+        envoie l'adresse URL (Uniform Ressource Locator) que vous avez tapée
+        Le serveur web est un "ordinateur" présent sur l'Internet et qui héberge la page que vous demandez. Sur ce
+        serveur on trouve Apache, logiciel apte à traiter les requêtes HTTP que vous envoyez lorsque vous demandez une
+        page web. Apache va donc chercher le fichier demandé dans son arborescence et renvoie à votre navigateur la page
+        HTML
+        Votre navigateur interprète les différents langages se trouvant dans ce fichier (HTML, JavaScript, CSS, etc.) et
+        affiche la page.
+        Maintenant, voyons ce qui se passe lorsque votre page HTML contient du code PHP :
+        Votre navigateur envoie l'adresse que vous avez tapée
+        Le serveur web cherche dans son arborescence si le fichier existe, et si celui-ci porte une extension reconnue
+        comme une application PHP (.PHP, .PHP3, .PHP4 par exemple). Si c'est le cas, le serveur web transmet ce fichier
+        à PHP.
+        PHP parse le fichier, c'est-à-dire qu'il va analyser et exécuter le code PHP qui se trouve entre les balises
+        <? PHP et ?>. Si ce code contient des requêtes vers une base de données MySQL, PHP envoie la requête SQL. La
+        base de données renvoie les informations voulues au script qui peut les exploiter (pour les afficher par
+        exemple). PHP continue de passer la page, puis retourne le fichier dépourvu du code PHP au serveur web. Le
+        serveur web renvoie donc un fichier ne contenant plus de PHP, donc seulement du HTML au navigateur qui
+        l'interprète et l'affiche. Quel outil pour faire du PHP ?
+    </p>
+    <h1>Quel outil pour faire du PHP ?</h1>
+    <p>Pour faire du PHP, il ne vous faut rien d'autre qu'un simple éditeur de texte. Vous en trouverez une liste ici
+        ainsi qu'un comparatif plutôt complet ici. Mais l'outil le plus indispensable est certainement la documentation
+        officielle. Celle-ci est disponible ici. Elle contient la description complète des fonctions, la syntaxe de PHP,
+        comment l'installer ... C'est une mine d'or, prenez le temps d'y jeter un œil, et en cas de doute c'est ici que
+        vous devez chercher en premier.
+        Enfin sachez utiliser ces merveilleux outils que sont les moteurs de recherche, et plus particulièrement Google.
+        En cherchant bien vous trouverez facilement des ressources (documentation, tutorial, article, ...) dont vous
+        aurez besoin. Le but pour vous est de pouvoir être autonome lorsque vous développerez et de savoir se
+        débrouiller seul face à un problème. Le carnet d'adresse du débutant
+    </p>
+<h1>Carnet d’adresse du débutant</h1>
+<p>Site officiel d'Apache
+    Site officiel de PHP
+    Site officiel de MySQL
+    Site officiel d'EasyPHP
+    Comment installer et utiliser easyPHP
+    Wamp	
+     Mov’amp
+     </p>
+</html>
